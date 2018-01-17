@@ -6,6 +6,8 @@
 \usepackage{booktabs}
 \usepackage[utf8]{inputenc}
 \usepackage[scale=2]{ccicons}
+
+\usepackage[absolute,overlay]{textpos}
 \usepackage{graphicx}
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
@@ -102,15 +104,23 @@
 	
 	
 		\begin{frame}{Little-Albert Experiment [1920]}
-			Ziel: Anzahl von Reizen die eine emotionale Reaktion auslösen kann mit einfachen Mitteln vermehrt werden\\
 			
-			Ablauf:
-			\begin{itemize}
-				\item Erster Durchlauf: Man zeigte Albert ihm unbekannte Lebewesen und Gegenstände
-				\item Zweiter Durchlauf: Erneutes zeigen von den Lebewesen und Gegenstaenden begleitet von lautem Geräusch
-				\item Dritter Durchlauf: Ähnliche Reize provozieren emotionale Reaktion
-			\end{itemize}
-					\end{frame}
+			\begin{textblock*}{10cm}(1cm,1.6cm) % {block width} (coords)
+			
+			\textbf{Ziel}: Anzahl von Reizen die eine emotionale Reaktion auslösen kann mit einfachen Mitteln vermehrt werden\\
+
+			\textbf{Ablauf}:
+			\begin{enumerate}
+				\item Man zeigte Albert ihm unbekannte Lebewesen und Gegenstände
+				\item Erneutes zeigen von den Lebewesen und Gegenstaenden begleitet von lautem Geräusch
+				\item Ähnliche Reize provozieren emotionale Reaktion
+			\end{enumerate}
+			
+		\end{textblock*}
+			\begin{textblock*}{5cm}(7.8cm,5.8cm) % {block width} (coords)
+				\includegraphics[width=5cm]{./pics/Little-albert.jpg}
+			\end{textblock*}
+		\end{frame}
 	
 	\begin{frame}{Little-Albert Experiment [1920]}
 		
@@ -134,20 +144,25 @@
 	\end{frame}
 	
 	\begin{frame}{Robber's Cave [1954]}
-		Ziel: Erforschung der Entstehung und Schlichtung von Gruppenkonflikten\\
-		Ablauf:
+%		\begin{textblock*}{10cm}(1cm,1.6cm) % {block width} (coords)
+		\textbf{Ziel}: Erforschung der Entstehung und Schlichtung von Gruppenkonflikten\\
+		\textbf{Ablauf}:
+		
+			
 		\begin{itemize}
 			\item VPs wurden zufällig in zwei gleichgroße Gruppen aufgeteilt
 			\item Gruppen führten getrennt voneinander Aktivitäten durch
 			\item Provokation von Konflikten durch die unfaire Beeinflussung eines Wettkampfs zwischen den Gruppen
 			\item Versuchte Schlichtung der Konflikte durch Kooperation der beiden Gruppen zum erreichen gemeinsamer Ziele
 		\end{itemize}
+%		\end{textblock*}
 		
+%		\begin{textblock*}{1cm}(7.2cm,5.8cm) % {block width} (coords)%
+%			\includegraphics[width=5cm]{./pics/robbers-cave.jpg}
+%		\end{textblock*}
 	\end{frame}	
 
 	\begin{frame}{Robber's Cave [1954]}
-		Ziel: Erforschung der Entstehung und Schlichtung von Gruppenkonflikten\\
-		Ablauf:
 		\begin{itemize}
 			\item Die Gruppen wussten nicht um Manipulation des Wettkampfs
 			\item Teilnehmer wurden nicht über Ziele der Studie aufgeklärt
@@ -170,9 +185,9 @@
 	\end{frame}
 	
 	\begin{frame}{Stanford Prison [1971]}
-		Ziel: Wie schnell adaptieren VP erwartete Verhaltensweisen ihrer Rollen \\
+		\textbf{Ziel}: Wie schnell adaptieren VP erwartete Verhaltensweisen ihrer Rollen \\
 		
-		Ablauf:
+		\textbf{Ablauf}:
 		\begin{itemize}
 			\item VPs eingeteilt in Wärter und Gefangene
 			\item Gefangene traten von Grundrechten ab und wurden öffentlich verhaftet
@@ -211,9 +226,9 @@
 	\begin{frame}{Das Milgram Experiment [1961]}
 		
 		%	\includegraphics[scale=0.25]{./pics/Milgram_Experiment.png}
-		Ziel: Grad der Gehorsamkeit gegenüber einer Autoritätsperson in moralischer Konfliktsituation messen\\
+		\textbf{Ziel}: Grad der Gehorsamkeit gegenüber einer Autoritätsperson in moralischer Konfliktsituation messen\\
 		
-		Ablauf:
+		\textbf{Ablauf}:
 		\begin{itemize}
 			\item VP ist "Lehrer"
 			\item Überprüft Gedächtnisleistung einer anderen Person
@@ -239,14 +254,14 @@
 			\end{itemize}
 	\end{frame}
 
-\section{Ethisch diskutable Themen in der Informatik}
+\section{Ethik in der Informatik}
 	
 
 	
 	\begin{frame}{Interaktives Roboterexperiment}
 		\textbf{Ziel}: intuitives Verhalten mit Robotern erforschen\\
 		\vspace{0.8cm}
-		\textbf{Ablauf}:
+		\textbf{\textbf{Ablauf}}:
 		\begin{itemize}
 			\item VP erhielt Richtungsanweisungen für gewünschte Bewegung des Roboters
 			\item VL überwachte VP aus dem Nebenraum und kontrollierte den Roboter
@@ -263,8 +278,8 @@
 	\end{frame}
 	
 	\begin{frame}{VR: Agency detection in predictive minds}
-		Ziel: Wie beeinflusst sensorische Beeinflussung bzw. daraus resultierender Stress das Wahrnehmen unbelebter Natur \\
-		Ablauf:
+		\textbf{Ziel}: Wie beeinflusst sensorische Beeinflussung bzw. daraus resultierender Stress das Wahrnehmen unbelebter Natur \\
+		\textbf{Ablauf}:
 		\begin{itemize}
 		\item Teilnehmer macht zwei Spaziergaenge im Wald bei je unterschiedlichen Wetterbedingungen
 		\item Bedingungen: Tag, Nebel, Nacht
@@ -283,8 +298,18 @@
 		
 	\end{frame}
 
-	\begin{frame}{Prothetik}
-	
+	\begin{frame}{Prothetik - Myoelektrische Prothesen}
+		\begin{textblock*}{5cm}(7cm,2cm) % {block width} (coords)
+			\includegraphics[width=5cm]{./pics/michelangelo-hand.jpg}
+		\end{textblock*}
+		Intelligente Handprothese
+		\begin{itemize}
+			\item Funktionalität wiederherstellen
+			\item Alltagstauglich
+			\item Robust
+			\item Intuitive Bedienung
+			\item Zuverlässig
+		\end{itemize}
 	\end{frame}
 		
 		\begin{frame}{RoboCup}
@@ -379,7 +404,7 @@
 	\begin{itemize}
 		\item Ethik fuer Einsteiger von Dr Ulf D. Pose
 		\item https://www.googlewatchblog.de/2012/08/googles-safesearch-filter-problemen/
-		\item Agency detection in predictive minds: a virtual reality study von Marc Andersen et al.
+		\item Agency detection in predictive minds: a virtual reality study, \\ Marc Andersen et al. 2017
 	\end{itemize}
 	
 \end{frame}
